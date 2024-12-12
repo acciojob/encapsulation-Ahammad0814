@@ -10,10 +10,8 @@ public class Main {
     // System.out.println(obj.variable); 
     // Error: 'name' has private access in RWOnly
     
-    obj.setter(100);
+    obj.setName("My Name");
     
-    int result = obj.getter();
-    
-    System.out.println(result);
+    System.out.println(obj.getName());
   }
 }
